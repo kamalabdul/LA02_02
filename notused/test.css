@@ -1,0 +1,24 @@
+/* aboutme.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ensures footer pushes down */
+}
+
+.container {
+  flex: 1; /* expands to push footer down */
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto; /* pushes footer to bottom */
+}

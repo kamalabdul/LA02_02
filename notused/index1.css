@@ -1,0 +1,53 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    background-color: #a2d2ff; /* Sets the background color of the page */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the content */
+}
+
+/* Styles for all h1 to h6 elements */
+h1, h2, h3, h4, h5, h6 {
+    color: #4a4e69; /* Sets the text color for all heading elements */
+    margin-top: 0; /* Removes default top margin */
+    margin-bottom: 1rem; /* Adds space below each heading */
+}
+
+/* Styles for all p (paragraph) elements */
+p {
+    color: #22223b; /* Sets the text color for paragraphs */
+    background-color: #bde0fe; /* Sets the background color for paragraphs */
+    padding: 1rem; /* Adds padding inside the paragraph */
+    border: 3px solid #52b2cf; /* Adds a border around the paragraph */
+}
+
+/* Styles for unordered lists (ul) */
+ul {
+    list-style-type: square; /* Changes the bullet style */
+    padding-left: 20px; /* Adds padding to the left of the list */
+}
+
+/* Styles for ordered lists (ol) */
+ol {
+    list-style-type:upper-roman; /* Ensures the list uses roman literal */
+    padding-left: 20px; /* Adds padding to the left of the list */
+}
+
+/* Styles for links (a elements) */
+a {
+    color: #4a4e69; /* Sets the text color for links */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Adds an underline on hover */
+}
+
+/* Specific class for blog post sections */
+.blog-post {
+    border: 1px solid #4a4e69; /* Adds a border around blog post sections */
+    padding: 2rem; /* Adds padding inside the blog post section */
+    margin-bottom: 20px; /* Adds space below each blog post section */
+    background-color: #e1effb; /* Sets the background color for blog posts */
+}

@@ -1,0 +1,165 @@
+
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    background-color: #a2d2ff; /* Sets the background color of the page */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the content */
+}
+
+/* Styles for all h1 to h6 elements */
+h1, h2, h3, h4, h5, h6 {
+    color: #2d43d4; /* Sets the text color for all heading elements */
+    margin-top: 0px; /* Removes default top margin */
+    margin-bottom: 1rem; /* Adds space below each heading  16px*/
+    
+}
+
+/* Styles for all p (paragraph) elements */
+p_notused{
+    color: #22223b; /* Sets the text color for paragraphs */
+    background-color: #bde0fe; /* Sets the background color for paragraphs */
+    padding: 1rem; /* Adds padding inside the paragraph */
+    border: 3px solid #52b2cf; /* Adds a border around the paragraph */
+    border-radius: 10px;
+}
+
+/* Styles for unordered lists (ul) */
+ul {
+    list-style-type: square; /* Changes the bullet style */
+    padding-left: 20px; /* Adds padding to the left of the list */
+}
+
+/* Styles for ordered lists (ol) */
+ol {
+    list-style-type:upper-roman; /* Ensures the list uses roman literal */
+    padding-left: 20px; /* Adds padding to the left of the list */
+}
+
+/* Styles for links (a elements) */
+a {
+    color: #4a4e69; /* Sets the text color for links */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Adds an underline on hover */
+    color: red;
+    font-size: larger;
+}
+
+
+/* Flexbox container for blog sections */
+.blog-container{
+    display: flex; /* Uses Flexbox for layout */
+    justify-content: space-between; /* Spaces out items evenly */
+    margin-top: 20px; /* Adds margin above the container */
+}
+
+
+/* Specific class for blog post sections  for blog-post*/
+.blog-section {
+    border: 1px solid #4a4e69; /* Adds a border around blog post sections */
+    padding: 2rem; /* Adds padding inside the blog post section */
+    margin: 5px;
+   
+    background-color: #e1effb; /* Sets the background color for blog posts */
+    flex :2;
+    border-radius: 10px
+}
+
+/* Specific colors for each blog section */
+
+.blog-section-1 {    
+    background-color: #e0f7ff; /* Lightest shade */
+}
+
+
+.blog-section-2 {
+    background-color: #d0f0ff; /* Lighter shade */
+}
+
+.blog-section-3 {
+    background-color: #487c96; /* Light shade */
+}
+
+
+/* Navigation bar styling */
+
+
+nav {
+    background-color: #579fda; /* Sets the background color for the navigation bar */
+    display: flex; /* Uses Flexbox for layout */
+    justify-content:space-between; /* Spaces out items to the left and right */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 0.25rem 1rem; /* Adds padding inside the navigation bar */
+    color: white; /* Sets the text color for the navigation bar */
+    border-radius: 5px;
+}
+
+
+/* Styling for the navigation bar title */
+nav h1 {
+    margin: 0; /* Removes default margin */
+    font-weight: 900;
+}
+
+/* Styling for the navigation links */
+nav ul {
+    list-style: none; /* Removes bullet points from the list */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Uses Flexbox for layout */
+    gap: 2rem; /* Adds space between each list item */
+}
+
+/* Styling for links within the navigation bar */
+nav li {
+    text-decoration: none; /* Removes underline from links */
+    transition: transform 0.2s ease-in-out; /* Adds a smooth transition effect */
+}
+
+/* Hover effect for links */
+nav li:hover {
+    transform: scale(1.5); /* Increases the font size to 1.5 times on hover */
+}
+
+nav li a {
+    color: white
+}
+
+nav li a:hover {
+    color: rgb(224, 206, 206);
+    text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+    background-color: #72aad8; /* Sets a different background color for the footer */
+    color: white; /* Sets the text color for the footer */
+    margin-top: 1rem;
+    padding: 10px 10px; /* Adds padding inside the footer */
+    display: flex; /* Uses Flexbox for layout */
+    justify-content: space-between; /* Spaces out items to the left and right */
+    align-items: center; /* Aligns items vertically in the center */
+    border-radius: 5px;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    max-width: 90%;
+        
+    
+}
+
+
+/* Styling for footer links */
+footer a {
+    color: white; /* Sets the text color for footer links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover{
+    text-decoration: underline; /* Adds underline on hover */
+}
+
